@@ -12,7 +12,7 @@ Este projeto é uma simulação das funcionalidades de um iPhone, com base em se
 
 ## Visão geral
 
-O projeto é estruturado usando princípios de programação orientada a objetos (OOP) e é representado por meio de diagramas UML. As funcionalidades são implementadas em Java, mostrando como as interfaces e as classes podem ser usadas para simular os recursos do iPhone.
+O projeto é estruturado usando princípios de programação orientada a objetos (POO) e é representado por meio de diagramas UML. As funcionalidades são implementadas em Java, mostrando como as interfaces e as classes podem ser usadas para simular os recursos do iPhone.
 
 ## Funcionalidades
 
