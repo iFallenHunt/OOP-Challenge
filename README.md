@@ -1,4 +1,4 @@
-[🇧🇷️](https://github.com/iFallenHunt/POO-Challenge/blob/main/README-PTBR.md)[🇫🇷️](https://github.com/iFallenHunt/POO-Challenge/blob/main/README-FR.md)
+[🇧🇷️](https://github.com/iFallenHunt/POO-Challenge/blob/main/README-PTBR.md) - [🇫🇷️](https://github.com/iFallenHunt/POO-Challenge/blob/main/README-FR.md)
 
 # iPhone Functionality Simulation
 
