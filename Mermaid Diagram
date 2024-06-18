@@ -1,0 +1,57 @@
+classDiagram
+    class MusicPlayer {
+        <<interface>>
+        +play()
+        +pause()
+        +selectSong(String song)
+        +addSongToPlaylist(String song)
+        +displayPlaylist()
+    }
+
+    class Phone {
+        <<interface>>
+        +call(String number)
+        +answer()
+        +startVoicemail()
+        +displayCallLog()
+    }
+
+    class InternetBrowser {
+        <<interface>>
+        +displayPage(String url)
+        +addNewTab()
+        +refreshPage()
+        +displayBrowserHistory()
+    }
+
+    class Playlist {
+        -List~String~ songs
+        +addSong(String song)
+        +display()
+    }
+
+    class CallLog {
+        -List~String~ calls
+        +addCall(String call)
+        +display()
+    }
+
+    class BrowserHistory {
+        -List~String~ history
+        +addPage(String url)
+        +display()
+    }
+
+    class iPhone {
+        -Playlist playlist
+        -CallLog callLog
+        -BrowserHistory browserHistory
+        +iPhone()
+    }
+
+    MusicPlayer <|-- iPhone
+    Phone <|-- iPhone
+    InternetBrowser <|-- iPhone
+    iPhone o-- Playlist
+    iPhone o-- CallLog
+    iPhone o-- BrowserHistory
