@@ -113,4 +113,4 @@ classDiagram
 Feel free to fork the repository and submit pull requests. Contributions are welcome!
 
 ### License
-This project is licensed under the MIT License. See the [LICENSE]() file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/iFallenHunt/POO-Challenge/blob/main/LICENSE) file for more details.
